@@ -309,6 +309,7 @@ table td {
   z-index: 1;
   -moz-osx-font-smoothing: grayscale;
   color: #431bb1;
+  background: #CFD2FF;
 }
 
 .box:focus {
@@ -320,10 +321,19 @@ table td {
   transition: .3s;
 }
 
+.custom-box.light {
+  border: none;
+  transition: .3s;
+}
+
 .custom-box:hover {
   background: transparent !important;
   color: #CFD2FF;
+}
 
+.custom-box.light:hover {
+  background-color: #f8f9fa !important;
+  color: #090414;
 }
 
 .custom-box::before, .custom-box::after {
